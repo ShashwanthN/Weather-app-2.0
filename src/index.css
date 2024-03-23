@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.grad{
+  background-image: linear-gradient(to top, #051937, #0b1d3a, #11213e, #172641, #1c2a45, #22314c, #293754, #2f3e5b, #394968, #425475, #4c5f83, #566b91);
 }
